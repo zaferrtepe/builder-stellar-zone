@@ -57,6 +57,28 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        travel: {
+          blue: {
+            DEFAULT: "hsl(var(--travel-blue))",
+            light: "hsl(var(--travel-blue-light))",
+            dark: "hsl(var(--travel-blue-dark))",
+          },
+          gold: {
+            DEFAULT: "hsl(var(--travel-gold))",
+            light: "hsl(var(--travel-gold-light))",
+            dark: "hsl(var(--travel-gold-dark))",
+          },
+          green: "hsl(var(--travel-green))",
+          orange: "hsl(var(--travel-orange))",
+        },
+      },
+      backgroundImage: {
+        "travel-gradient":
+          "linear-gradient(135deg, hsl(var(--travel-gradient-start)), hsl(var(--travel-gradient-end)))",
+        "travel-gradient-vertical":
+          "linear-gradient(180deg, hsl(var(--travel-gradient-start)), hsl(var(--travel-gradient-end)))",
+        "travel-hero":
+          "linear-gradient(135deg, hsl(var(--travel-blue)), hsl(var(--travel-blue-light)))",
       },
       borderRadius: {
         lg: "var(--radius)",
